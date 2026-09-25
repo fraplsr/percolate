@@ -1,117 +1,242 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Percolate — Privacy e assistenza</title>
-<meta name="description" content="Informativa privacy e assistenza ufficiale di Percolate, il coffee-chain tycoon di fraplsr.">
-<meta name="theme-color" content="#24372f">
+<title>Percolate — Privacy policy and support</title>
+<meta name="description" content="Privacy policy and support for Percolate, the business tycoon game for Android. No account, no ads, no analytics.">
+<meta name="theme-color" content="#3a2a22">
 <link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <style>
-:root{color-scheme:light;--ink:#24372f;--muted:#637168;--paper:#f5f1e8;--card:#fffdf7;--line:#d9d2c4;--sage:#7f8952;--clay:#c66c48}
+:root{color-scheme:light;--ink:#2f231d;--muted:#6b5f57;--paper:#f6efe3;--card:#fffdf8;--line:#e2d7c6;--cup:#c96d45;--sleeve:#7d8a4f;--brown:#3a2a22}
 *{box-sizing:border-box}
-body{margin:0;background:radial-gradient(circle at 50% -12%,#fffaf0 0,var(--paper) 45%,#ece5d8 100%);color:var(--ink);font:17px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-body:before{content:"";display:block;height:7px;background:linear-gradient(90deg,var(--sage),var(--clay),#432d24,var(--sage))}
-main{max-width:820px;margin:0 auto;padding:42px 24px 72px}
-.brand{display:flex;justify-content:center;margin:4px 0 34px}.brand img{display:block;width:min(100%,440px);height:auto}
-.panel{padding:clamp(26px,5vw,54px);background:color-mix(in srgb,var(--card) 94%,transparent);border:1px solid rgba(67,45,36,.14);border-radius:28px;box-shadow:0 24px 64px rgba(67,45,36,.10)}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:6px 11px;border-radius:999px;background:#e4e7d2;color:#46502e;font-size:12px;font-weight:750;letter-spacing:.12em}
-h1{max-width:650px;margin:18px 0 14px;font-size:clamp(38px,7vw,62px);line-height:1.02;letter-spacing:-.045em}
-h2{font-size:22px;line-height:1.25;margin:34px 0 8px;color:#304a40}
-p{margin:0 0 15px}a{color:#1e664f;font-weight:650;text-decoration-thickness:1.5px;text-underline-offset:3px}small{color:var(--muted)}
-.updated{color:var(--muted);font-size:15px}.lang{border-top:1px solid var(--line);margin-top:48px;padding-top:40px}
-footer{text-align:center;color:var(--muted);font-size:13px;margin-top:26px}
-@media(max-width:520px){main{padding:28px 14px 48px}.panel{border-radius:22px;padding:24px 20px}.brand{margin-bottom:24px}.brand img{width:290px}}
+body{margin:0;background:radial-gradient(circle at 50% -10%,#fffaf1 0,var(--paper) 46%,#ece2d2 100%);color:var(--ink);font:17px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+body:before{content:"";display:block;height:6px;background:linear-gradient(90deg,var(--sleeve),var(--cup),var(--brown),var(--sleeve))}
+main{max-width:860px;margin:0 auto;padding:34px 20px 64px}
+.brand{display:flex;align-items:center;justify-content:center;gap:18px;margin:6px 0 22px}
+.brand img{width:84px;height:84px;border-radius:22%;box-shadow:0 10px 26px rgba(58,42,34,.22)}
+.word{font-weight:800;font-size:clamp(30px,6vw,44px);letter-spacing:.32em;color:var(--brown);margin-right:-.32em}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 22px}
+nav a{min-width:52px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);text-align:center;text-decoration:none;font-weight:700;font-size:14px;letter-spacing:.06em}
+nav a:hover{border-color:var(--cup)}
+.panel{overflow:hidden;background:var(--card);border:1px solid rgba(58,42,34,.12);border-radius:26px;box-shadow:0 24px 60px rgba(58,42,34,.10)}
+.hero{display:block;width:100%;height:auto;aspect-ratio:1024/500}
+section{display:none;padding:clamp(24px,5vw,50px)}
+.anchor{position:absolute;top:0}
+#s-en,body:has(#it:target) #s-it,body:has(#de:target) #s-de,body:has(#es:target) #s-es,body:has(#fr:target) #s-fr,body:has(#ru:target) #s-ru{display:block}
+body:has(.anchor:target:not(#en)) #s-en{display:none}
+nav a[href="#en"],body:has(#it:target) nav a[href="#it"],body:has(#de:target) nav a[href="#de"],body:has(#es:target) nav a[href="#es"],body:has(#fr:target) nav a[href="#fr"],body:has(#ru:target) nav a[href="#ru"]{background:var(--brown);color:#fff;border-color:var(--brown)}
+body:has(.anchor:target:not(#en)) nav a[href="#en"]{background:var(--card);color:var(--ink);border-color:var(--line)}
+h1{overflow-wrap:break-word;hyphens:auto;margin:0 0 10px;font-size:clamp(28px,6vw,52px);line-height:1.05;letter-spacing:-.035em}
+h2{font-size:21px;line-height:1.3;margin:30px 0 6px;color:#4a3328}
+p{margin:0 0 14px}
+a{color:#a24f2c;font-weight:650;text-underline-offset:3px}
+.updated{color:var(--muted);font-size:15px}
+.lead{font-size:18px;padding:14px 18px;border-left:4px solid var(--sleeve);background:#f4f1e4;border-radius:0 12px 12px 0}
+.shots{display:flex;gap:14px;justify-content:center;padding:0 20px 34px;flex-wrap:wrap}
+.shots img{width:min(30%,210px);min-width:150px;height:auto;border-radius:16px;border:1px solid var(--line);box-shadow:0 10px 24px rgba(58,42,34,.12)}
+footer{text-align:center;color:var(--muted);font-size:14px;margin-top:24px}
+@media(max-width:520px){main{padding:22px 12px 44px}.brand img{width:64px;height:64px}section{padding:22px 18px}nav{gap:6px}nav a{min-width:44px;padding:7px 9px}}
 </style>
+</head>
+<body>
+<span class="anchor" id="en"></span><span class="anchor" id="it"></span><span class="anchor" id="de"></span><span class="anchor" id="es"></span><span class="anchor" id="fr"></span><span class="anchor" id="ru"></span>
 <main>
-<div class="brand"><img src="assets/percolate-logo.webp" width="1024" height="480" alt="Percolate"></div>
+<header class="brand"><img src="assets/icon.webp" width="192" height="192" alt="Percolate icon"><span class="word">PERCOLATE</span></header>
+<nav aria-label="Language">
+<a href="#en" hreflang="en">EN</a><a href="#it" hreflang="it">IT</a><a href="#de" hreflang="de">DE</a><a href="#es" hreflang="es">ES</a><a href="#fr" hreflang="fr">FR</a><a href="#ru" hreflang="ru">RU</a>
+</nav>
 <article class="panel">
-<small class="eyebrow">PERCOLATE · FRAPLSR</small>
-<h1>Privacy e assistenza</h1>
-<p class="updated">Informativa per la versione beta Android di Percolate, sviluppata da fraplsr.
-Ultimo aggiornamento: 11 settembre 2026.</p>
-<h2>Partite e dati sul dispositivo</h2>
-<p>Percolate non richiede un account di gioco. Le partite, i nomi scelti durante
-la creazione della carriera e le impostazioni salvate restano nella memoria
-privata dell'app. La versione beta non integra pubblicità, strumenti di analisi
-del comportamento o un servizio di salvataggio gestito dallo sviluppatore.</p>
-<h2>Backup Android</h2>
-<p>I salvataggi sono inclusi nelle regole di backup e trasferimento di Android.
-Se abilitati e supportati dal dispositivo, questi servizi possono trasferirli
-attraverso il sistema di backup del tuo account. Lo sviluppatore non riceve né
-può accedere a questi backup. Le opzioni e la disponibilità dipendono dal sistema
-e dalle tue impostazioni.</p>
-<h2>Acquisto e servizi esterni</h2>
-<p>L'acquisto dell'app viene gestito da Google Play. Lo sviluppatore non riceve
-i dati della tua carta di pagamento. Google tratta i dati relativi allo store
-secondo la propria <a href="https://policies.google.com/privacy">informativa</a>.
-Il collegamento al profilo dello sviluppatore apre GitHub nel browser; visitando
-quel sito si applica la sua <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">informativa privacy</a>.</p>
-<h2>Assistenza</h2>
-<p>Per assistenza e richieste relative ai dati scrivi a
-<a href="mailto:fraplsr@gmail.com">fraplsr@gmail.com</a>. Se ci contatti, riceviamo
-il tuo indirizzo email, il messaggio e gli eventuali allegati che scegli di
-inviare, e li usiamo per rispondere alla richiesta. Non inviare password o dati
-di pagamento. La corrispondenza passa dal servizio di posta elettronica ed è
-conservata durante la gestione della richiesta e in seguito solo per quanto
-ragionevolmente necessario a rispondere, prevenire abusi o rispettare obblighi
-di legge.</p>
-<h2>Sicurezza</h2>
-<p>I dati di gioco usano la memoria privata dell'app prevista da Android. Le email
-di assistenza sono gestite dai fornitori coinvolti nella consegna. Nessun metodo
-di conservazione o trasmissione può essere garantito come completamente sicuro.</p>
-<h2>Eliminazione e controllo</h2>
-<p>Puoi eliminare le carriere dalla schermata dei salvataggi. La cancellazione
-dei dati dell'app nelle impostazioni Android rimuove i dati locali. Gestisci
-separatamente gli eventuali backup tramite le impostazioni del relativo servizio.
-Per richiedere la cancellazione della corrispondenza di assistenza, contattaci
-all'indirizzo indicato.</p>
-<h2>Aggiornamenti</h2>
-<p>Questa informativa descrive la beta attuale. Eventuali servizi online o acquisti
-in-app futuri saranno descritti in un aggiornamento dell'informativa prima della
-loro introduzione.</p>
-<section class="lang" lang="en">
-<small>ENGLISH</small>
+<img class="hero" src="assets/banner.webp" width="1024" height="500" alt="Percolate: a city map from the game">
+
+<section id="s-en" lang="en">
 <h1>Privacy policy and support</h1>
-<p>This policy applies to the Android beta of Percolate, developed by fraplsr.
-Last updated: 11 September 2026.</p>
-<h2>Games and on-device data</h2>
-<p>Percolate does not require a game account. Careers, names chosen during career
-creation, and saved settings remain in the app's private storage. The current
-beta includes no advertising, behavioural analytics, or developer-operated
-cloud save service. This local data is kept until you delete the career,
-clear the app's data, or uninstall the app subject to Android backup settings.</p>
+<p class="updated">Percolate for Android · Last updated: 26 September 2026</p>
+<p class="lead">In short: no account, no ads, no analytics and no servers of ours. Your games stay on your device.</p>
+<h2>Data on your device</h2>
+<p>Percolate does not need an account. Your careers, the player and company names you choose, and your settings are stored only in the app's private storage on your device. We do not receive them. They stay there until you delete a career, clear the app's data or uninstall the app.</p>
+<h2>No advertising, no analytics</h2>
+<p>The app contains no advertising, no behavioural analytics, no crash-reporting service and no cloud save run by us. It does not collect your location, contacts, photos or device identifiers.</p>
+<h2>Purchases through Google Play</h2>
+<p>Percolate is free to download. The full game can be unlocked with a one-time in-app purchase processed by Google Play. We never receive your payment-card details. To unlock the full game and restore it after a reinstall, the app asks Google Play which Percolate purchases your Google account owns, and keeps that answer on your device for up to 7 days so the game also works offline. Google handles store and payment data under its <a href="https://policies.google.com/privacy">privacy policy</a>.</p>
+<h2>Updates</h2>
+<p>The app can ask Google Play whether a newer version is available and offer to install it. This check is handled by Google Play.</p>
+<h2>Exporting and importing careers</h2>
+<p>If you export a career, the app creates a file and opens Android's share menu, and you choose where it goes. If you import a file, the app reads only the file you pick. Neither sends anything to us.</p>
 <h2>Android backup</h2>
-<p>Saved games are covered by Android backup and device-transfer rules. When
-enabled and supported by your device, those system services may transfer saves
-through your account backup. The developer does not receive or have access to
-those backups. Availability and retention are controlled by the service and
-your device settings.</p>
-<h2>Purchases and external services</h2>
-<p>Google Play processes the app purchase. The developer does not receive your
-payment-card details. Google handles store data under its
-<a href="https://policies.google.com/privacy">privacy policy</a>. The developer
-profile link opens GitHub in your browser, where GitHub's
-<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>
-applies.</p>
-<h2>Support</h2>
-<p>For support or data enquiries, email
-<a href="mailto:fraplsr@gmail.com">fraplsr@gmail.com</a>. If you contact us, we
-receive your email address, message, and any attachments you choose to send and
-use them to answer the request. Do not send passwords or payment data. Support
-correspondence is retained while the request is handled and afterwards only as
-reasonably needed for follow-up, abuse prevention, or legal obligations. You
-may request its deletion by email.</p>
-<h2>Security, deletion and control</h2>
-<p>Game data uses Android's private app storage. Support email is handled through
-the email providers involved in delivery. You can delete careers from the save
-screen, clear local app data in Android settings, and manage system backups
-separately. No method of storage or transmission can be guaranteed completely
-secure.</p>
+<p>Saved games are included in Android backup and device-transfer rules. When this is on and supported by your device, Android may copy them through your Google account backup. We do not receive and cannot access these backups; your device settings control them.</p>
+<h2>Links</h2>
+<p>Links in the app (this page, the store page, the developer profile) open in your browser or in Google Play, where that site's own privacy policy applies.</p>
+<h2>Children</h2>
+<p>Percolate is not directed at children under 13. The app collects no personal data from any player.</p>
+<h2>Support and data requests</h2>
+<p>Write to <a href="mailto:percolategame@gmail.com">percolategame@gmail.com</a>. If you contact us, we receive your email address, your message and any attachments you choose to send, and use them only to answer you. Please do not send passwords or payment details. We keep this correspondence while we handle your request, and afterwards only as long as reasonably needed for follow-up, abuse prevention or legal obligations. You can ask us to delete it at any time.</p>
+<h2>Security</h2>
+<p>Game data uses Android's private app storage, which other apps cannot read. Support emails pass through the email providers involved. No method of storage or transmission is completely secure.</p>
+<h2>Deleting your data</h2>
+<p>Delete a career from the saves screen. Remove all local data by clearing the app's storage in your device's app settings, or by uninstalling the app. Backups are managed in your device's backup settings. To delete support emails, write to us.</p>
 <h2>Changes</h2>
-<p>This policy describes the current beta. It will be updated before any future
-online service or in-app purchase changes the way data is handled.</p>
+<p>We will update this page before any change in the app alters how data is handled. The date at the top shows the current version.</p>
 </section>
+
+<section id="s-it" lang="it">
+<h1>Informativa privacy e assistenza</h1>
+<p class="updated">Percolate per Android · Ultimo aggiornamento: 26 settembre 2026</p>
+<p class="lead">In breve: nessun account, nessuna pubblicità, nessuna analisi e nessun nostro server. Le tue partite restano sul tuo dispositivo.</p>
+<h2>Dati sul dispositivo</h2>
+<p>Percolate non richiede un account. Le carriere, i nomi del giocatore e dell'azienda che scegli e le impostazioni sono salvati solo nella memoria privata dell'app sul tuo dispositivo. Noi non li riceviamo. Restano lì finché non elimini una carriera, cancelli i dati dell'app o la disinstalli.</p>
+<h2>Nessuna pubblicità, nessuna analisi</h2>
+<p>L'app non contiene pubblicità, analisi del comportamento, servizi di segnalazione degli arresti anomali né salvataggi cloud gestiti da noi. Non raccoglie posizione, contatti, foto o identificativi del dispositivo.</p>
+<h2>Acquisti tramite Google Play</h2>
+<p>Percolate si scarica gratis. Il gioco completo si sblocca con un acquisto in-app una tantum gestito da Google Play. Non riceviamo mai i dati della tua carta di pagamento. Per sbloccare il gioco completo e ripristinarlo dopo una reinstallazione, l'app chiede a Google Play quali acquisti di Percolate possiede il tuo account Google e conserva la risposta sul dispositivo per un massimo di 7 giorni, così il gioco funziona anche offline. Google tratta i dati dello store e dei pagamenti secondo la propria <a href="https://policies.google.com/privacy">informativa privacy</a>.</p>
+<h2>Aggiornamenti</h2>
+<p>L'app può chiedere a Google Play se è disponibile una versione più recente e proporti di installarla. Questo controllo è gestito da Google Play.</p>
+<h2>Esportare e importare carriere</h2>
+<p>Se esporti una carriera, l'app crea un file e apre il menu di condivisione di Android: sei tu a scegliere dove inviarlo. Se importi un file, l'app legge solo il file che selezioni. In nessuno dei due casi ci viene inviato qualcosa.</p>
+<h2>Backup Android</h2>
+<p>I salvataggi rientrano nelle regole di backup e trasferimento di Android. Se la funzione è attiva e supportata dal dispositivo, Android può copiarli tramite il backup del tuo account Google. Non riceviamo questi backup e non possiamo accedervi; li controllano le impostazioni del tuo dispositivo.</p>
+<h2>Link</h2>
+<p>I link nell'app (questa pagina, la pagina dello store, il profilo dello sviluppatore) si aprono nel browser o in Google Play, dove si applica l'informativa privacy di quel sito.</p>
+<h2>Minori</h2>
+<p>Percolate non è rivolto ai minori di 13 anni. L'app non raccoglie dati personali da nessun giocatore.</p>
+<h2>Assistenza e richieste sui dati</h2>
+<p>Scrivi a <a href="mailto:percolategame@gmail.com">percolategame@gmail.com</a>. Se ci contatti, riceviamo il tuo indirizzo email, il messaggio e gli eventuali allegati che scegli di inviare, e li usiamo solo per risponderti. Non inviare password o dati di pagamento. Conserviamo la corrispondenza mentre gestiamo la richiesta e, in seguito, solo per il tempo ragionevolmente necessario a seguiti, prevenzione degli abusi od obblighi di legge. Puoi chiederne la cancellazione in qualsiasi momento.</p>
+<h2>Sicurezza</h2>
+<p>I dati di gioco usano la memoria privata dell'app prevista da Android, che le altre app non possono leggere. Le email di assistenza passano dai fornitori di posta coinvolti. Nessun metodo di conservazione o trasmissione è completamente sicuro.</p>
+<h2>Eliminare i tuoi dati</h2>
+<p>Elimina una carriera dalla schermata dei salvataggi. Rimuovi tutti i dati locali cancellando la memoria dell'app nelle impostazioni app del dispositivo, oppure disinstallandola. I backup si gestiscono nelle impostazioni di backup del dispositivo. Per cancellare le email di assistenza, scrivici.</p>
+<h2>Modifiche</h2>
+<p>Aggiorneremo questa pagina prima che una modifica dell'app cambi il modo in cui i dati vengono trattati. La data in alto indica la versione in vigore.</p>
+</section>
+
+<section id="s-de" lang="de">
+<h1>Datenschutzerklärung und Support</h1>
+<p class="updated">Percolate für Android · Zuletzt aktualisiert: 26. September 2026</p>
+<p class="lead">Kurz gesagt: kein Konto, keine Werbung, keine Analyse und keine eigenen Server. Deine Spielstände bleiben auf deinem Gerät.</p>
+<h2>Daten auf deinem Gerät</h2>
+<p>Percolate braucht kein Konto. Deine Karrieren, die von dir gewählten Spieler- und Firmennamen und deine Einstellungen werden ausschließlich im privaten Speicher der App auf deinem Gerät gespeichert. Wir erhalten sie nicht. Sie bleiben dort, bis du eine Karriere löschst, die App-Daten löschst oder die App deinstallierst.</p>
+<h2>Keine Werbung, keine Analyse</h2>
+<p>Die App enthält keine Werbung, keine Verhaltensanalyse, keinen Absturzbericht-Dienst und keine von uns betriebene Cloud-Speicherung. Sie erfasst weder Standort noch Kontakte, Fotos oder Gerätekennungen.</p>
+<h2>Käufe über Google Play</h2>
+<p>Percolate ist kostenlos herunterzuladen. Das vollständige Spiel lässt sich mit einem einmaligen In-App-Kauf freischalten, den Google Play abwickelt. Wir erhalten niemals deine Zahlungskartendaten. Um das vollständige Spiel freizuschalten und nach einer Neuinstallation wiederherzustellen, fragt die App bei Google Play ab, welche Percolate-Käufe zu deinem Google-Konto gehören, und speichert diese Antwort bis zu 7 Tage auf deinem Gerät, damit das Spiel auch offline funktioniert. Google verarbeitet Store- und Zahlungsdaten gemäß seiner <a href="https://policies.google.com/privacy">Datenschutzerklärung</a>.</p>
+<h2>Updates</h2>
+<p>Die App kann bei Google Play nachfragen, ob eine neuere Version verfügbar ist, und deren Installation anbieten. Diese Prüfung erfolgt über Google Play.</p>
+<h2>Karrieren exportieren und importieren</h2>
+<p>Wenn du eine Karriere exportierst, erstellt die App eine Datei und öffnet das Teilen-Menü von Android; du entscheidest, wohin sie geht. Wenn du eine Datei importierst, liest die App nur die von dir gewählte Datei. In keinem Fall wird etwas an uns gesendet.</p>
+<h2>Android-Sicherung</h2>
+<p>Spielstände fallen unter die Sicherungs- und Geräteübertragungsregeln von Android. Wenn diese Funktion aktiviert ist und dein Gerät sie unterstützt, kann Android sie über die Sicherung deines Google-Kontos kopieren. Wir erhalten diese Sicherungen nicht und haben keinen Zugriff darauf; sie werden über die Einstellungen deines Geräts gesteuert.</p>
+<h2>Links</h2>
+<p>Links in der App (diese Seite, die Store-Seite, das Entwicklerprofil) öffnen sich im Browser oder in Google Play; dort gilt die Datenschutzerklärung der jeweiligen Website.</p>
+<h2>Kinder</h2>
+<p>Percolate richtet sich nicht an Kinder unter 13 Jahren. Die App erhebt von keinem Spieler personenbezogene Daten.</p>
+<h2>Support und Anfragen zu Daten</h2>
+<p>Schreib an <a href="mailto:percolategame@gmail.com">percolategame@gmail.com</a>. Wenn du uns kontaktierst, erhalten wir deine E-Mail-Adresse, deine Nachricht und die Anhänge, die du mitschickst, und verwenden sie nur, um dir zu antworten. Bitte sende keine Passwörter oder Zahlungsdaten. Wir bewahren die Korrespondenz auf, solange wir deine Anfrage bearbeiten, und danach nur so lange, wie es für Rückfragen, Missbrauchsverhinderung oder gesetzliche Pflichten vernünftigerweise nötig ist. Du kannst jederzeit ihre Löschung verlangen.</p>
+<h2>Sicherheit</h2>
+<p>Spieldaten liegen im privaten App-Speicher von Android, den andere Apps nicht lesen können. Support-E-Mails laufen über die beteiligten E-Mail-Anbieter. Keine Methode der Speicherung oder Übertragung ist vollkommen sicher.</p>
+<h2>Deine Daten löschen</h2>
+<p>Lösche eine Karriere im Spielstand-Bildschirm. Entferne alle lokalen Daten, indem du den App-Speicher in den App-Einstellungen deines Geräts löschst oder die App deinstallierst. Sicherungen verwaltest du in den Sicherungseinstellungen deines Geräts. Um Support-E-Mails löschen zu lassen, schreib uns.</p>
+<h2>Änderungen</h2>
+<p>Wir aktualisieren diese Seite, bevor eine Änderung der App den Umgang mit Daten verändert. Das Datum oben zeigt die aktuelle Fassung.</p>
+</section>
+
+<section id="s-es" lang="es">
+<h1>Política de privacidad y soporte</h1>
+<p class="updated">Percolate para Android · Última actualización: 26 de septiembre de 2026</p>
+<p class="lead">En resumen: sin cuenta, sin anuncios, sin analítica y sin servidores propios. Tus partidas se quedan en tu dispositivo.</p>
+<h2>Datos en tu dispositivo</h2>
+<p>Percolate no necesita una cuenta. Tus carreras, los nombres de jugador y de empresa que eliges y tus ajustes se guardan solo en el almacenamiento privado de la app en tu dispositivo. Nosotros no los recibimos. Permanecen allí hasta que borres una carrera, borres los datos de la app o la desinstales.</p>
+<h2>Sin anuncios, sin analítica</h2>
+<p>La app no contiene anuncios, analítica de comportamiento, servicios de informes de fallos ni guardado en la nube gestionado por nosotros. No recoge tu ubicación, contactos, fotos ni identificadores del dispositivo.</p>
+<h2>Compras a través de Google Play</h2>
+<p>Percolate se descarga gratis. El juego completo se desbloquea con una compra única dentro de la app gestionada por Google Play. Nunca recibimos los datos de tu tarjeta de pago. Para desbloquear el juego completo y restaurarlo tras una reinstalación, la app pregunta a Google Play qué compras de Percolate tiene tu cuenta de Google y guarda esa respuesta en tu dispositivo hasta 7 días, para que el juego funcione también sin conexión. Google trata los datos de la tienda y de pago según su <a href="https://policies.google.com/privacy">política de privacidad</a>.</p>
+<h2>Actualizaciones</h2>
+<p>La app puede preguntar a Google Play si hay una versión más reciente y ofrecerte instalarla. Esta comprobación la realiza Google Play.</p>
+<h2>Exportar e importar carreras</h2>
+<p>Si exportas una carrera, la app crea un archivo y abre el menú de compartir de Android; tú eliges adónde va. Si importas un archivo, la app lee solo el archivo que selecciones. En ningún caso se nos envía nada.</p>
+<h2>Copia de seguridad de Android</h2>
+<p>Las partidas guardadas están incluidas en las reglas de copia de seguridad y transferencia de Android. Si está activada y tu dispositivo la admite, Android puede copiarlas mediante la copia de seguridad de tu cuenta de Google. No recibimos estas copias ni podemos acceder a ellas; las controlan los ajustes de tu dispositivo.</p>
+<h2>Enlaces</h2>
+<p>Los enlaces de la app (esta página, la ficha de la tienda, el perfil del desarrollador) se abren en tu navegador o en Google Play, donde se aplica la política de privacidad de ese sitio.</p>
+<h2>Menores</h2>
+<p>Percolate no está dirigido a menores de 13 años. La app no recoge datos personales de ningún jugador.</p>
+<h2>Soporte y solicitudes sobre datos</h2>
+<p>Escribe a <a href="mailto:percolategame@gmail.com">percolategame@gmail.com</a>. Si nos contactas, recibimos tu dirección de correo, tu mensaje y los archivos adjuntos que decidas enviar, y los usamos solo para responderte. No envíes contraseñas ni datos de pago. Conservamos esta correspondencia mientras atendemos tu solicitud y, después, solo el tiempo razonablemente necesario para el seguimiento, la prevención de abusos o las obligaciones legales. Puedes pedir que la borremos en cualquier momento.</p>
+<h2>Seguridad</h2>
+<p>Los datos del juego usan el almacenamiento privado de apps de Android, que otras apps no pueden leer. Los correos de soporte pasan por los proveedores de correo implicados. Ningún método de almacenamiento o transmisión es completamente seguro.</p>
+<h2>Borrar tus datos</h2>
+<p>Borra una carrera desde la pantalla de partidas guardadas. Elimina todos los datos locales borrando el almacenamiento de la app en los ajustes de aplicaciones de tu dispositivo, o desinstalando la app. Las copias de seguridad se gestionan en los ajustes de copia de seguridad del dispositivo. Para borrar los correos de soporte, escríbenos.</p>
+<h2>Cambios</h2>
+<p>Actualizaremos esta página antes de que un cambio en la app modifique el tratamiento de los datos. La fecha de arriba indica la versión vigente.</p>
+</section>
+
+<section id="s-fr" lang="fr">
+<h1>Politique de confidentialité et assistance</h1>
+<p class="updated">Percolate pour Android · Dernière mise à jour : 26 septembre 2026</p>
+<p class="lead">En bref : pas de compte, pas de publicité, pas d'analyse et aucun serveur à nous. Tes parties restent sur ton appareil.</p>
+<h2>Données sur ton appareil</h2>
+<p>Percolate ne nécessite aucun compte. Tes carrières, les noms de joueur et d'entreprise que tu choisis et tes réglages sont enregistrés uniquement dans le stockage privé de l'application sur ton appareil. Nous ne les recevons pas. Ils y restent jusqu'à ce que tu supprimes une carrière, effaces les données de l'application ou la désinstalles.</p>
+<h2>Pas de publicité, pas d'analyse</h2>
+<p>L'application ne contient ni publicité, ni analyse du comportement, ni service de rapports de plantage, ni sauvegarde dans le cloud gérée par nous. Elle ne collecte ni ta position, ni tes contacts, ni tes photos, ni les identifiants de l'appareil.</p>
+<h2>Achats via Google Play</h2>
+<p>Percolate se télécharge gratuitement. Le jeu complet se débloque par un achat intégré unique traité par Google Play. Nous ne recevons jamais les données de ta carte de paiement. Pour débloquer le jeu complet et le restaurer après une réinstallation, l'application demande à Google Play quels achats Percolate appartiennent à ton compte Google et garde cette réponse sur ton appareil jusqu'à 7 jours, afin que le jeu fonctionne aussi hors ligne. Google traite les données de la boutique et de paiement selon sa <a href="https://policies.google.com/privacy">politique de confidentialité</a>.</p>
+<h2>Mises à jour</h2>
+<p>L'application peut demander à Google Play si une version plus récente est disponible et te proposer de l'installer. Cette vérification est effectuée par Google Play.</p>
+<h2>Exporter et importer des carrières</h2>
+<p>Si tu exportes une carrière, l'application crée un fichier et ouvre le menu de partage d'Android ; c'est toi qui choisis sa destination. Si tu importes un fichier, l'application lit uniquement le fichier que tu sélectionnes. Rien ne nous est envoyé dans aucun des deux cas.</p>
+<h2>Sauvegarde Android</h2>
+<p>Les parties enregistrées relèvent des règles de sauvegarde et de transfert d'appareil d'Android. Si la fonction est activée et prise en charge par ton appareil, Android peut les copier via la sauvegarde de ton compte Google. Nous ne recevons pas ces sauvegardes et ne pouvons pas y accéder ; elles dépendent des réglages de ton appareil.</p>
+<h2>Liens</h2>
+<p>Les liens de l'application (cette page, la fiche de la boutique, le profil du développeur) s'ouvrent dans ton navigateur ou dans Google Play, où s'applique la politique de confidentialité du site concerné.</p>
+<h2>Enfants</h2>
+<p>Percolate ne s'adresse pas aux enfants de moins de 13 ans. L'application ne collecte aucune donnée personnelle auprès d'aucun joueur.</p>
+<h2>Assistance et demandes relatives aux données</h2>
+<p>Écris à <a href="mailto:percolategame@gmail.com">percolategame@gmail.com</a>. Si tu nous contactes, nous recevons ton adresse e-mail, ton message et les pièces jointes que tu choisis d'envoyer, et nous les utilisons uniquement pour te répondre. N'envoie ni mot de passe ni données de paiement. Nous conservons cette correspondance pendant le traitement de ta demande, puis seulement le temps raisonnablement nécessaire au suivi, à la prévention des abus ou aux obligations légales. Tu peux en demander la suppression à tout moment.</p>
+<h2>Sécurité</h2>
+<p>Les données du jeu utilisent le stockage privé des applications d'Android, que les autres applications ne peuvent pas lire. Les e-mails d'assistance transitent par les fournisseurs de messagerie concernés. Aucune méthode de stockage ou de transmission n'est totalement sûre.</p>
+<h2>Supprimer tes données</h2>
+<p>Supprime une carrière depuis l'écran des sauvegardes. Efface toutes les données locales en vidant le stockage de l'application dans les paramètres des applications de ton appareil, ou en la désinstallant. Les sauvegardes se gèrent dans les paramètres de sauvegarde de l'appareil. Pour faire supprimer les e-mails d'assistance, écris-nous.</p>
+<h2>Modifications</h2>
+<p>Nous mettrons cette page à jour avant qu'une modification de l'application change la façon dont les données sont traitées. La date en haut indique la version en vigueur.</p>
+</section>
+
+<section id="s-ru" lang="ru">
+<h1>Политика конфиденциальности и поддержка</h1>
+<p class="updated">Percolate для Android · Последнее обновление: 26 сентября 2026 г.</p>
+<p class="lead">Коротко: без аккаунта, без рекламы, без аналитики и без наших серверов. Ваши игры остаются на вашем устройстве.</p>
+<h2>Данные на вашем устройстве</h2>
+<p>Для Percolate не нужен аккаунт. Ваши карьеры, выбранные вами имена игрока и компании, а также настройки хранятся только в закрытом хранилище приложения на вашем устройстве. Мы их не получаем. Они остаются там, пока вы не удалите карьеру, не очистите данные приложения или не удалите его.</p>
+<h2>Без рекламы и аналитики</h2>
+<p>В приложении нет рекламы, поведенческой аналитики, сервиса отчётов о сбоях и облачных сохранений на наших серверах. Оно не собирает ваше местоположение, контакты, фотографии или идентификаторы устройства.</p>
+<h2>Покупки через Google Play</h2>
+<p>Percolate можно скачать бесплатно. Полную версию игры можно открыть разовой встроенной покупкой, которую обрабатывает Google Play. Мы никогда не получаем данные вашей платёжной карты. Чтобы открыть полную версию и восстановить её после переустановки, приложение запрашивает у Google Play, какие покупки Percolate есть у вашего аккаунта Google, и хранит этот ответ на устройстве до 7 дней, чтобы игра работала и без интернета. Google обрабатывает данные магазина и платежей в соответствии со своей <a href="https://policies.google.com/privacy">политикой конфиденциальности</a>.</p>
+<h2>Обновления</h2>
+<p>Приложение может запросить у Google Play, доступна ли новая версия, и предложить её установить. Эту проверку выполняет Google Play.</p>
+<h2>Экспорт и импорт карьер</h2>
+<p>При экспорте карьеры приложение создаёт файл и открывает меню «Поделиться» Android — вы сами выбираете, куда его отправить. При импорте приложение читает только выбранный вами файл. Ни в том, ни в другом случае нам ничего не отправляется.</p>
+<h2>Резервное копирование Android</h2>
+<p>Сохранённые игры подпадают под правила резервного копирования и переноса данных Android. Если эта функция включена и поддерживается устройством, Android может копировать их через резервную копию вашего аккаунта Google. Мы не получаем эти копии и не имеем к ним доступа; ими управляют настройки вашего устройства.</p>
+<h2>Ссылки</h2>
+<p>Ссылки в приложении (эта страница, страница в магазине, профиль разработчика) открываются в браузере или в Google Play, где действует политика конфиденциальности соответствующего сайта.</p>
+<h2>Дети</h2>
+<p>Percolate не предназначена для детей младше 13 лет. Приложение не собирает персональные данные ни у одного игрока.</p>
+<h2>Поддержка и запросы о данных</h2>
+<p>Пишите на <a href="mailto:percolategame@gmail.com">percolategame@gmail.com</a>. Если вы с нами свяжетесь, мы получим ваш адрес электронной почты, сообщение и вложения, которые вы решите отправить, и используем их только для ответа вам. Не отправляйте пароли и платёжные данные. Мы храним переписку, пока обрабатываем ваш запрос, а затем лишь столько, сколько разумно необходимо для последующей связи, предотвращения злоупотреблений или выполнения требований закона. Вы можете в любой момент попросить её удалить.</p>
+<h2>Безопасность</h2>
+<p>Игровые данные хранятся в закрытом хранилище приложений Android, которое другие приложения не могут читать. Письма в поддержку проходят через задействованных почтовых провайдеров. Ни один способ хранения или передачи данных не является полностью безопасным.</p>
+<h2>Удаление данных</h2>
+<p>Удалите карьеру на экране сохранений. Все локальные данные можно удалить, очистив хранилище приложения в настройках приложений устройства или удалив приложение. Резервными копиями управляют в настройках резервного копирования устройства. Чтобы удалить письма в поддержку, напишите нам.</p>
+<h2>Изменения</h2>
+<p>Мы обновим эту страницу до того, как изменение в приложении повлияет на обработку данных. Дата вверху показывает действующую версию.</p>
+</section>
+
+<div class="shots">
+<img src="assets/shot_cafe_formats.webp" width="360" height="640" alt="Percolate: opening a café">
+<img src="assets/shot_cafe_team.webp" width="360" height="640" alt="Percolate: running a café">
+<img src="assets/shot_producer_travel.webp" width="360" height="640" alt="Percolate: a producer's works">
+</div>
 </article>
-<footer>© 2026 fraplsr · Percolate</footer>
+<footer>© 2026 Percolate · <a href="mailto:percolategame@gmail.com">percolategame@gmail.com</a></footer>
 </main>
+</body>
 </html>
